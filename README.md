@@ -6,3 +6,13 @@ Filter: a function that filters out the odd numbers and keeps the even numbers i
 Map: a function that takes a vector of integers as input ​in​ and outputs a new vector out​ where out[i] = in[i] ^ 2 (Use std::transform)
 
 Reduce: a function that sums up all elements in a vector (Use std::accumulate)
+
+Run with
+```
+bazel run src/main:main
+```
+
+Test with
+```
+bazel test tests:tests
+```
